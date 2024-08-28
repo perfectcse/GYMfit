@@ -6,8 +6,11 @@ const WorkoutSessions = () => {
       <div style={styles.wrapper}>
         <h1 style={styles.heading}>Top Workout Session</h1>
         <p style={styles.description}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
-          quisquam. Eaque alias, blanditiis quidem maiores illo unde ipsam!
+        Elevate your fitness with our premier workout sessions. 
+        Designed for all levels, these sessions offer expert guidance, 
+        diverse workouts, and state-of-the-art equipment. 
+        Experience a supportive community, flexible scheduling, and a fun, 
+        results-driven approach to achieving your fitness goals.!
         </p>
         <img src="/img5.jpg" alt="workout" style={styles.image} />
       </div>
