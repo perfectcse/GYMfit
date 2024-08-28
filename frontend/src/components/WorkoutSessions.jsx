@@ -6,14 +6,19 @@ const WorkoutSessions = () => {
       <div style={styles.wrapper}>
         <h1 style={styles.heading}>Top Workout Session</h1>
         <p style={styles.description}>
-          Elevate your fitness with our premier workout sessions. Designed for all levels, these sessions offer expert guidance, diverse workouts, and state-of-the-art equipment. Experience a supportive community, flexible scheduling, and a fun, results-driven approach to achieving your fitness goals!
+          Elevate your fitness with our premier workout sessions. 
+          Designed for all levels, these sessions offer expert guidance, diverse workouts, and state-of-the-art equipment. 
+          Experience a supportive community, flexible scheduling, and a fun, 
+          results-driven approach to achieving your fitness goals!
         </p>
         <img src="/img5.jpg" alt="workout" style={styles.image} />
       </div>
       <div style={styles.wrapper}>
         <h1 style={styles.heading}>Featured Bootcamps</h1>
         <p style={styles.description}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti impedit quasi sunt amet rerum accusamus odio eveniet unde?
+        Discover our top-rated bootcamps designed to push your limits and achieve your fitness goals. 
+        Each bootcamp offers intensive training, expert coaching, and a motivating environment to help you succeed.
+         Choose the one that fits your needs and start your transformation today!
         </p>
         <div style={styles.bootcamps}>
           {bootcampData.map((bootcamp, index) => (
