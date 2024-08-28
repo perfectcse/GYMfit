@@ -6,19 +6,14 @@ const WorkoutSessions = () => {
       <div style={styles.wrapper}>
         <h1 style={styles.heading}>Top Workout Session</h1>
         <p style={styles.description}>
-        Elevate your fitness with our premier workout sessions. 
-        Designed for all levels, these sessions offer expert guidance, 
-        diverse workouts, and state-of-the-art equipment. 
-        Experience a supportive community, flexible scheduling, and a fun, 
-        results-driven approach to achieving your fitness goals.!
+          Elevate your fitness with our premier workout sessions. Designed for all levels, these sessions offer expert guidance, diverse workouts, and state-of-the-art equipment. Experience a supportive community, flexible scheduling, and a fun, results-driven approach to achieving your fitness goals!
         </p>
         <img src="/img5.jpg" alt="workout" style={styles.image} />
       </div>
       <div style={styles.wrapper}>
         <h1 style={styles.heading}>Featured Bootcamps</h1>
         <p style={styles.description}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-          impedit quasi sunt amet rerum accusamus odio eveniet unde?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti impedit quasi sunt amet rerum accusamus odio eveniet unde?
         </p>
         <div style={styles.bootcamps}>
           {bootcampData.map((bootcamp, index) => (
@@ -68,6 +63,11 @@ const styles = {
     backgroundColor: '#fff',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
     borderRadius: '8px',
+    transition: 'box-shadow 0.3s ease, transform 0.3s ease',
+    ':hover': {
+      boxShadow: '0 8px 16px rgba(0, 0, 0, 0.2)',
+      transform: 'translateY(-5px)',
+    },
   },
   heading: {
     fontSize: '2rem',
@@ -85,6 +85,10 @@ const styles = {
     width: '100%',
     height: 'auto',
     borderRadius: '8px',
+    transition: 'transform 0.3s ease',
+    ':hover': {
+      transform: 'scale(1.05)',
+    },
   },
   bootcamps: {
     display: 'grid',
@@ -96,6 +100,11 @@ const styles = {
     padding: '20px',
     borderRadius: '8px',
     boxShadow: '0 2px 6px rgba(0, 0, 0, 0.1)',
+    transition: 'box-shadow 0.3s ease, transform 0.3s ease',
+    ':hover': {
+      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+      transform: 'translateY(-3px)',
+    },
   },
   bootcampTitle: {
     fontSize: '1.25rem',
