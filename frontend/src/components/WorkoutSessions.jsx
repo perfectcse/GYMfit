@@ -37,22 +37,22 @@ const bootcampData = [
   {
     title: "Bootcamp 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa saepe repellendus nemo sit facere ipsam!",
+      "Jumpstart your fitness journey with our beginner-friendly . Experience a mix of cardio, strength training, and flexibility exercises tailored to build a strong foundation. Perfect for those new to fitness or looking to get back on track.",
   },
   {
     title: "Bootcamp 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa saepe repellendus nemo sit facere ipsam!",
+      "Elevate your workout with Bootcamp 2, designed for those seeking a challenging and dynamic fitness experience.",
   },
   {
     title: "Bootcamp 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa saepe repellendus nemo sit facere ipsam!",
+      "Transform your fitness journey with Bootcamp 4, designed to challenge and inspire. This program includes high-intensity interval training (HIIT), strength conditioning, and endurance drills, perfect for pushing your limits and achieving significant results.",
   },
   {
     title: "Bootcamp 4",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa saepe repellendus nemo sit facere ipsam!",
+      " This program features intense, varied workouts that incorporate functional training, plyometrics, and advanced strength exercises. Ideal for those looking to break through plateaus and achieve peak physical performance.",
   },
 ];
 
