@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer style={styles.footerContainer}>
       <p style={styles.footerText}>
-        Designed and Developed by <a href="#" style={styles.link} target="_blank" rel="noopener noreferrer">Vishal Mishra</a>
+        Designed and Developed by <a href="https://personaldc.netlify.app/" style={styles.link} target="_blank" rel="noopener noreferrer">Vishal Mishra</a>
       </p>
     </footer>
   );
